@@ -1,0 +1,98 @@
+group: Agendamento Univille
+Professor = {
+id_prof, nome_prof, matricula
+1, 'Fulano da Silva', 12352
+2, 'Beltrano das Flores', 12354
+3, 'Ciclano do Amaral', 12356
+4, 'Débora das Neves', 12358
+5, 'Ernesto Moraes', 12360
+6, 'Francisca dos Santos', 12362
+7, 'Gustavo Pires', 12364
+8, 'Helena Almeida', 12366
+9, 'Icaro Ferreira', 12368
+10, 'Juliana Farias', 12370
+11, 'Karla Souza', 12372
+12, 'Luiz Campos', 12374
+13, 'Mariana Oliveira', 12376
+14, 'Nicolas Pereira', 12378
+15, 'Olívia Rodrigues', 12380
+16, 'Paulo Gomes', 12382
+17, 'Quésia Silva', 12384
+18, 'Roberto Carvalho', 12386
+19, 'Sandra Cunha', 12388
+20, 'Timotio Mado', 12390
+21, 'Úrsula Martins', 12392
+22, 'Vinícius Teixeira', 12394
+23, 'William Santos', 12396
+24, 'Xênia Pereira', 12398
+25, 'Yasmin Oliveira', 12400
+26, 'Zeca Fonseca', 12402
+}
+
+
+Ambientes = {
+id_amb, descricao_amb, obs_ambi
+1, 'Laboratório 2 Informática', '20 Computadores'
+2, 'Sala de Anatomia', 'Reservar 2 dias antes da aula'
+3, 'Biblioteca Central', 'Silêncio obrigatório'
+4, 'Laboratório de Química', 'Usar jaleco e luvas'
+5, 'Auditório Principal', 'Capacidade para 100 pessoas'
+6, 'Sala de Estudos 1', 'Aberta 24 horas'
+7, 'Laboratório de Física', 'Equipamentos de alta tensão'
+8, 'Sala de Conferências', 'Necessário agendar'
+9, 'Laboratório de Biologia', 'Restringido a alunos autorizados'
+10, 'Ginásio Esportivo', 'Reservar para eventos esportivos'
+11, 'Laboratório de Eletrônica', '40 Computadores'
+12, 'Sala de Música', 'Instrumentos disponíveis sob supervisão'
+13, 'Laboratório de Mecânica', 'Equipamento de proteção obrigatório'
+}
+
+Horarios = {
+id_horario, descricao_horario, periodo_horario
+1, '18:50 às 19:30', 'Noturno'
+2, '19:30 às 20,30', 'Noturno'
+3, '20:30 às 21:10', 'Noturno'
+4, '21:10 às 21:50', 'Noturno'
+5, '21:50 às 22:30', 'Noturno'
+}
+
+
+Agendamentos = {
+id_agendamentos, id_prof, id_horario, id_ambiente, data_agendamento
+1, 1, 2, 1, '2024-10-14'
+2, 18, 4, 3, '2024-10-17'
+3, 6, 5, 1, '2024-10-15'
+4, 19, 4, 10, '2024-10-19'
+5, 16, 4, 10, '2024-10-15'
+6, 3, 3, 2, '2024-10-17'
+7, 21, 2, 8, '2024-10-20'
+8, 12, 1, 5, '2024-10-18'
+9, 5, 3, 7, '2024-10-16'
+10, 13, 2, 4, '2024-10-15'
+11, 22, 1, 9, '2024-10-20'
+12, 9, 5, 6, '2024-10-19'
+13, 14, 2, 12, '2024-10-16'
+14, 8, 3, 11, '2024-10-18'
+15, 11, 4, 5, '2024-10-19'
+16, 4, 1, 2, '2024-10-16'
+17, 20, 3, 13, '2024-10-17'
+18, 10, 5, 8, '2024-10-15'
+19, 7, 2, 3, '2024-10-20'
+20, 17, 1, 10, '2024-10-18'
+21, 15, 4, 9, '2024-10-17'
+22, 23, 3, 7, '2024-10-16'
+23, 2, 5, 1, '2024-10-19'
+24, 24, 1, 12, '2024-10-15'
+25, 25, 2, 6, '2024-10-20'
+26, 26, 4, 11, '2024-10-18'
+27, 1, 3, 13, '2024-10-16'
+28, 22, 5, 4, '2024-10-19'
+}
+
+
+
+
+
+
+
+

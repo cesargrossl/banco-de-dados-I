@@ -1,0 +1,50 @@
+Exemplos de Álgebra Relacional (Banco Clube do Livro)
+
+-> IDs e nomes dos livros com preço > 40
+π id_livro, nome_livro ( σ preco > 40 ( Livros ) )
+
+-> Livros com estoque baixo (qtd_estoque < 5)
+π id_livro, nome_livro, qtd_estoque ( σ qtd_estoque < 5 ( Livros ) )
+
+-> Detalhar vendas com o nome do livro (join natural por id_livro)
+π id_pedido, nome_livro, qtd_vendida ( Livros ⋈ Vendas )
+
+-> Livros que aparecem na tabela de LivroMaisVendidos
+π id_livro, nome_livro, ano, mais_vendidos ( Livros ⋈ LivroMaisVendidos )
+
+-> Clientes do Rio de Janeiro
+π id_cliente, nome, email ( σ cidade = 'Rio de Janeiro' ( Clientes ) )
+
+-> Vendedores com mais de 3 anos de experiência
+π nome, anos_exp ( σ anos_exp > 3 ( Vendedores ) )
+
+-> União: livros de George Orwell OU Jane Austen
+π id_livro, nome_livro ( σ autor = 'George Orwell' ( Livros ) )
+∪
+π id_livro, nome_livro ( σ autor = 'Jane Austen' ( Livros ) )
+
+-> Média de nota por fonte de recomendação
+γ fonte_recomendacao ; AVG(nota_media) → media ( LivrosRecomendados )
+
+-> Livros com preço entre 20 e 30
+π id_livro, autor ( σ (preco ≥ 20 ∧ preco ≤ 30) ( Livros ) )
+
+-> Junção Natural (⋈)
+Une duas tabelas automaticamente pelos atributos com o mesmo nome.
+π nome_livro, qtd_vendida (Livros ⋈ Vendas)
+
+-> Junção em Cadeia (vários ⋈ seguidos)
+Combinar várias tabelas progressivamente.
+π nome, nome_livro, qtd_vendida ((Vendedores ⋈ id_vendedor = id_vendedor_vendas Vendas) ⋈ Livros)
+
+-> Junção Externa à Direita (⟖)
+Mostra todos os registros da tabela à direita, mesmo sem correspondência à esquerda.
+π id_pedido, nome_livro, qtd_vendida (Livros ⟖ Vendas)
+
+-> Junção Externa à Esquerda (⟕)
+Mostra todos os registros da tabela à esquerda, mesmo sem correspondência à direita.
+π id_livro, nome_livro, qtd_vendida (Livros ⟕ Vendas)
+
+-> Junção Theta (⋈<condição>)
+Une tabelas com uma condição explícita.
+π nome, id_pedido, qtd_vendida (Vendedores ⋈ id_vendedor = id_vendedor_vendas Vendas)

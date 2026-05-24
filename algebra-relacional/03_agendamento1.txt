@@ -1,0 +1,33 @@
+group: Agendamento Univille
+Professor = {
+id_prof, nome_prof, matricula
+1, 'Fulano da Silva', 12352
+2, 'Beltrano das Flores', 12354
+}
+
+
+Ambientes = {
+id_amb, descricao_amb, obs_ambi
+1, 'Laboratório 2 Informática', '20 Computadores'
+2, 'Sala de Anatomia', 'Reservar 2 dias antes da aula'
+}
+
+Horarios = {
+id_horario, descricao_horario, periodo_horario
+1, '18:50 às 19:30', 'Noturno'
+2, '19:30 às 20,30', 'Noturno'
+}
+
+
+Agendamentos = {
+id_agendamentos, id_prof, id_horario, id_ambiente, data_agendamento
+1, 1, 2, 1, '2024-10-14'
+}
+
+
+
+
+
+
+
+
