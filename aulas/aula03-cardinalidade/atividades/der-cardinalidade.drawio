@@ -1,28 +1,263 @@
 <mxfile host="app.diagrams.net">
-  <diagram id="atividade1" name="Página-1">
-    <mxGraphModel dx="673" dy="354" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="t1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;" value="ATIVIDADE 1 - CARDINALIDADE&#xa;&#xa;Relacionamento: Cliente realiza Pedido&#xa;&#xa;Perguntas:&#xa;1. Um cliente pode realizar quantos pedidos?&#xa;2. Um pedido pertence a quantos clientes?&#xa;&#xa;Preencha as cardinalidades no diagrama abaixo." vertex="1">
-          <mxGeometry height="140" width="700" x="40" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="cliente" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cliente" vertex="1">
-          <mxGeometry height="60" width="120" x="80" y="250" as="geometry" />
-        </mxCell>
-        <mxCell id="pedido" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pedido" vertex="1">
-          <mxGeometry height="60" width="120" x="520" y="250" as="geometry" />
-        </mxCell>
-        <mxCell id="rel" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="realiza" vertex="1">
-          <mxGeometry height="70" width="80" x="305" y="245" as="geometry" />
-        </mxCell>
-        <mxCell id="e1" edge="1" parent="1" source="cliente" style="endArrow=none;startArrow=none;" target="rel">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e2" edge="1" parent="1" source="rel" style="endArrow=none;startArrow=none;" target="pedido">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+
+<diagram id="d1" name="Atividade 1">
+<mxGraphModel><root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="t" value="Atividade 1&#10;&#10;Relacionamento: Cliente realiza Pedido&#10;&#10;1. Um cliente pode realizar quantos pedidos?&#10;2. Um pedido pertence a quantos clientes?&#10;&#10;Preencha as cardinalidades." style="text;html=1;strokeColor=none;fillColor=none;align=left;whiteSpace=wrap;" vertex="1" parent="1">
+<mxGeometry x="30" y="20" width="720" height="120" as="geometry"/></mxCell>
+
+<mxCell id="a" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="70" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="r" value="realiza" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="315" y="235" width="90" height="70" as="geometry"/></mxCell>
+
+<mxCell id="b" value="Pedido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="520" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="e1" edge="1" source="a" target="r" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" edge="1" source="r" target="b" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<mxCell id="c1" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="230" y="215" width="60" height="20" as="geometry"/></mxCell>
+<mxCell id="c2" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="430" y="215" width="60" height="20" as="geometry"/></mxCell>
+
+</root></mxGraphModel>
+</diagram>
+
+<diagram id="d2" name="Atividade 2">
+<mxGraphModel><root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="t" value="Atividade 2&#10;&#10;Relacionamento: Professor ministra Disciplina&#10;&#10;1. Um professor pode ministrar quantas disciplinas?&#10;2. Uma disciplina pode ser ministrada por quantos professores?&#10;&#10;Preencha as cardinalidades." style="text;html=1;strokeColor=none;fillColor=none;align=left;whiteSpace=wrap;" vertex="1" parent="1">
+<mxGeometry x="30" y="20" width="720" height="120" as="geometry"/></mxCell>
+
+<mxCell id="a" value="Professor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="70" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="r" value="ministra" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="315" y="235" width="90" height="70" as="geometry"/></mxCell>
+
+<mxCell id="b" value="Disciplina" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="520" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="e1" edge="1" source="a" target="r" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" edge="1" source="r" target="b" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<mxCell id="c1" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="230" y="215" width="60" height="20" as="geometry"/></mxCell>
+<mxCell id="c2" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="430" y="215" width="60" height="20" as="geometry"/></mxCell>
+
+</root></mxGraphModel>
+</diagram>
+
+<diagram id="d3" name="Atividade 3">
+<mxGraphModel><root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="t" value="Atividade 3&#10;&#10;Relacionamento: Médico realiza Consulta&#10;&#10;1. Um médico pode realizar quantas consultas?&#10;2. Uma consulta é realizada por quantos médicos?&#10;&#10;Preencha as cardinalidades." style="text;html=1;strokeColor=none;fillColor=none;align=left;whiteSpace=wrap;" vertex="1" parent="1">
+<mxGeometry x="30" y="20" width="720" height="120" as="geometry"/></mxCell>
+
+<mxCell id="a" value="Médico" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="70" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="r" value="realiza" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="315" y="235" width="90" height="70" as="geometry"/></mxCell>
+
+<mxCell id="b" value="Consulta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="520" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="e1" edge="1" source="a" target="r" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" edge="1" source="r" target="b" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<mxCell id="c1" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="230" y="215" width="60" height="20" as="geometry"/></mxCell>
+<mxCell id="c2" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="430" y="215" width="60" height="20" as="geometry"/></mxCell>
+
+</root></mxGraphModel>
+</diagram>
+
+<diagram id="d4" name="Atividade 4">
+<mxGraphModel><root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="t" value="Atividade 4&#10;&#10;Relacionamento: Departamento possui Empregado&#10;&#10;1. Um departamento pode possuir quantos empregados?&#10;2. Um empregado pode estar alocado em quantos departamentos?&#10;&#10;Preencha as cardinalidades." style="text;html=1;strokeColor=none;fillColor=none;align=left;whiteSpace=wrap;" vertex="1" parent="1">
+<mxGeometry x="30" y="20" width="720" height="120" as="geometry"/></mxCell>
+
+<mxCell id="a" value="Departamento" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="70" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="r" value="possui" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="315" y="235" width="90" height="70" as="geometry"/></mxCell>
+
+<mxCell id="b" value="Empregado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="520" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="e1" edge="1" source="a" target="r" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" edge="1" source="r" target="b" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<mxCell id="c1" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="230" y="215" width="60" height="20" as="geometry"/></mxCell>
+<mxCell id="c2" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="430" y="215" width="60" height="20" as="geometry"/></mxCell>
+
+</root></mxGraphModel>
+</diagram>
+
+<diagram id="d5" name="Atividade 5">
+<mxGraphModel><root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="t" value="Atividade 5&#10;&#10;Relacionamento: Cliente possui Veículo&#10;&#10;1. Um cliente pode possuir quantos veículos?&#10;2. Um veículo pertence a quantos clientes?&#10;&#10;Preencha as cardinalidades." style="text;html=1;strokeColor=none;fillColor=none;align=left;whiteSpace=wrap;" vertex="1" parent="1">
+<mxGeometry x="30" y="20" width="720" height="120" as="geometry"/></mxCell>
+
+<mxCell id="a" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="70" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="r" value="possui" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="315" y="235" width="90" height="70" as="geometry"/></mxCell>
+
+<mxCell id="b" value="Veículo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="520" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="e1" edge="1" source="a" target="r" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" edge="1" source="r" target="b" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<mxCell id="c1" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="230" y="215" width="60" height="20" as="geometry"/></mxCell>
+<mxCell id="c2" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="430" y="215" width="60" height="20" as="geometry"/></mxCell>
+
+</root></mxGraphModel>
+</diagram>
+
+<diagram id="d6" name="Atividade 6">
+<mxGraphModel><root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="t" value="Atividade 6&#10;&#10;Relacionamento: Autor escreve Livro&#10;&#10;1. Um autor pode escrever quantos livros?&#10;2. Um livro pode ser escrito por quantos autores?&#10;&#10;Preencha as cardinalidades." style="text;html=1;strokeColor=none;fillColor=none;align=left;whiteSpace=wrap;" vertex="1" parent="1">
+<mxGeometry x="30" y="20" width="720" height="120" as="geometry"/></mxCell>
+
+<mxCell id="a" value="Autor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="70" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="r" value="escreve" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="315" y="235" width="90" height="70" as="geometry"/></mxCell>
+
+<mxCell id="b" value="Livro" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="520" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="e1" edge="1" source="a" target="r" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" edge="1" source="r" target="b" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<mxCell id="c1" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="230" y="215" width="60" height="20" as="geometry"/></mxCell>
+<mxCell id="c2" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="430" y="215" width="60" height="20" as="geometry"/></mxCell>
+
+</root></mxGraphModel>
+</diagram>
+
+<diagram id="d7" name="Atividade 7">
+<mxGraphModel><root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="t" value="Atividade 7&#10;&#10;Relacionamento: Aluno cursa Disciplina&#10;&#10;1. Um aluno pode cursar quantas disciplinas?&#10;2. Uma disciplina pode possuir quantos alunos?&#10;&#10;Preencha as cardinalidades." style="text;html=1;strokeColor=none;fillColor=none;align=left;whiteSpace=wrap;" vertex="1" parent="1">
+<mxGeometry x="30" y="20" width="720" height="120" as="geometry"/></mxCell>
+
+<mxCell id="a" value="Aluno" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="70" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="r" value="cursa" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="315" y="235" width="90" height="70" as="geometry"/></mxCell>
+
+<mxCell id="b" value="Disciplina" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="520" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="e1" edge="1" source="a" target="r" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" edge="1" source="r" target="b" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<mxCell id="c1" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="230" y="215" width="60" height="20" as="geometry"/></mxCell>
+<mxCell id="c2" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="430" y="215" width="60" height="20" as="geometry"/></mxCell>
+
+</root></mxGraphModel>
+</diagram>
+
+<diagram id="d8" name="Atividade 8">
+<mxGraphModel><root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="t" value="Atividade 8&#10;&#10;Relacionamento: Funcionário trabalha em Projeto&#10;&#10;1. Um funcionário pode trabalhar em quantos projetos?&#10;2. Um projeto pode possuir quantos funcionários?&#10;&#10;Preencha as cardinalidades." style="text;html=1;strokeColor=none;fillColor=none;align=left;whiteSpace=wrap;" vertex="1" parent="1">
+<mxGeometry x="30" y="20" width="720" height="120" as="geometry"/></mxCell>
+
+<mxCell id="a" value="Funcionário" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="70" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="r" value="trabalha em" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="315" y="235" width="90" height="70" as="geometry"/></mxCell>
+
+<mxCell id="b" value="Projeto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="520" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="e1" edge="1" source="a" target="r" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" edge="1" source="r" target="b" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<mxCell id="c1" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="230" y="215" width="60" height="20" as="geometry"/></mxCell>
+<mxCell id="c2" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="430" y="215" width="60" height="20" as="geometry"/></mxCell>
+
+</root></mxGraphModel>
+</diagram>
+
+<diagram id="d9" name="Atividade 9">
+<mxGraphModel><root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="t" value="Atividade 9&#10;&#10;Relacionamento: Biblioteca possui Livro&#10;&#10;1. Uma biblioteca pode possuir quantos livros?&#10;2. Um livro pode pertencer a quantas bibliotecas?&#10;&#10;Preencha as cardinalidades." style="text;html=1;strokeColor=none;fillColor=none;align=left;whiteSpace=wrap;" vertex="1" parent="1">
+<mxGeometry x="30" y="20" width="720" height="120" as="geometry"/></mxCell>
+
+<mxCell id="a" value="Biblioteca" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="70" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="r" value="possui" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="315" y="235" width="90" height="70" as="geometry"/></mxCell>
+
+<mxCell id="b" value="Livro" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="520" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="e1" edge="1" source="a" target="r" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" edge="1" source="r" target="b" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<mxCell id="c1" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="230" y="215" width="60" height="20" as="geometry"/></mxCell>
+<mxCell id="c2" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="430" y="215" width="60" height="20" as="geometry"/></mxCell>
+
+</root></mxGraphModel>
+</diagram>
+
+<diagram id="d10" name="Atividade 10">
+<mxGraphModel><root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="t" value="Atividade 10&#10;&#10;Relacionamento: Fornecedor fornece Produto&#10;&#10;1. Um fornecedor pode fornecer quantos produtos?&#10;2. Um produto pode ser fornecido por quantos fornecedores?&#10;&#10;Preencha as cardinalidades." style="text;html=1;strokeColor=none;fillColor=none;align=left;whiteSpace=wrap;" vertex="1" parent="1">
+<mxGeometry x="30" y="20" width="720" height="120" as="geometry"/></mxCell>
+
+<mxCell id="a" value="Fornecedor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="70" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="r" value="fornece" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="315" y="235" width="90" height="70" as="geometry"/></mxCell>
+
+<mxCell id="b" value="Produto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="520" y="240" width="140" height="60" as="geometry"/></mxCell>
+
+<mxCell id="e1" edge="1" source="a" target="r" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" edge="1" source="r" target="b" parent="1" style="endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<mxCell id="c1" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="230" y="215" width="60" height="20" as="geometry"/></mxCell>
+<mxCell id="c2" value="____" style="text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+<mxGeometry x="430" y="215" width="60" height="20" as="geometry"/></mxCell>
+
+</root></mxGraphModel>
+</diagram>
+
 </mxfile>
