@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net"><diagram id="atividade1" name="Atividade 1"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title1" value="Atividade 1 – Biblioteca" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=28;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="50" y="30" width="900" height="50" as="geometry"/></mxCell><mxCell id="body1" value="Enunciado
+
+Uma biblioteca possui diversos livros. Cada livro pertence a uma única biblioteca.
+
+Cada biblioteca possui:
+• Código
+• Nome
+• Cidade
+
+Cada livro possui:
+• ISBN
+• Título
+• Ano de publicação
+
+Solicita-se:
+1. Identifique as entidades.
+2. Identifique os atributos de cada entidade.
+3. Identifique o relacionamento.
+4. Determine a cardinalidade.
+5. Desenhe o DER utilizando a notação de Peter Chen." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="50" y="100" width="920" height="620" as="geometry"/></mxCell><mxCell id="footer1" value="Nome: ____________________________________    Turma: __________    Data: ____/____/______" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="50" y="750" width="900" height="30" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="atividade2" name="Atividade 2"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title2" value="Atividade 2 – Escola" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=28;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="50" y="30" width="900" height="50" as="geometry"/></mxCell><mxCell id="body2" value="Enunciado
+
+Uma escola possui vários professores. Cada professor trabalha em apenas uma escola.
+
+A escola possui:
+• Código
+• Nome
+• Cidade
+
+O professor possui:
+• Matrícula
+• Nome
+• Formação
+
+Solicita-se:
+Desenhe o DER utilizando a notação de Peter Chen, contendo entidades, atributos, relacionamento e cardinalidade." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="50" y="100" width="920" height="620" as="geometry"/></mxCell><mxCell id="footer2" value="Nome: ____________________________________    Turma: __________    Data: ____/____/______" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="50" y="750" width="900" height="30" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="atividade3" name="Atividade 3"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title3" value="Atividade 3 – Cliente e Pedido" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=28;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="50" y="30" width="900" height="50" as="geometry"/></mxCell><mxCell id="body3" value="Enunciado
+
+Um cliente pode realizar vários pedidos. Cada pedido pertence a apenas um cliente.
+
+Cliente:
+• Código
+• Nome
+• CPF
+• Telefone
+
+Pedido:
+• Número
+• Data
+• Valor
+
+Solicita-se:
+Desenhe o DER utilizando a notação de Peter Chen, identificando as entidades, os atributos, o relacionamento e a cardinalidade." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="50" y="100" width="920" height="620" as="geometry"/></mxCell><mxCell id="footer3" value="Nome: ____________________________________    Turma: __________    Data: ____/____/______" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="50" y="750" width="900" height="30" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="atividade4" name="Atividade 4"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title4" value="Atividade 4 – Departamento e Funcionário" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=28;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="50" y="30" width="900" height="50" as="geometry"/></mxCell><mxCell id="body4" value="Enunciado
+
+Cada departamento possui vários funcionários. Cada funcionário trabalha em apenas um departamento.
+
+Departamento:
+• Código
+• Nome
+
+Funcionário:
+• Matrícula
+• Nome
+• Cargo
+• Salário
+
+Solicita-se:
+Desenhe o DER utilizando a notação de Peter Chen e represente corretamente a cardinalidade do relacionamento." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="50" y="100" width="920" height="620" as="geometry"/></mxCell><mxCell id="footer4" value="Nome: ____________________________________    Turma: __________    Data: ____/____/______" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="50" y="750" width="900" height="30" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="atividade5" name="Atividade 5"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title5" value="Atividade 5 – Médico e Consulta" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=28;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="50" y="30" width="900" height="50" as="geometry"/></mxCell><mxCell id="body5" value="Enunciado
+
+Um médico realiza várias consultas. Cada consulta é realizada por apenas um médico.
+
+Médico:
+• CRM
+• Nome
+• Especialidade
+
+Consulta:
+• Código
+• Data
+• Horário
+
+Solicita-se:
+Desenhe o DER utilizando a notação de Peter Chen, indicando entidades, atributos, relacionamento e cardinalidade." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="50" y="100" width="920" height="620" as="geometry"/></mxCell><mxCell id="footer5" value="Nome: ____________________________________    Turma: __________    Data: ____/____/______" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="50" y="750" width="900" height="30" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="atividade6" name="Atividade 6"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title6" value="Atividade 6 – Curso e Disciplina" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=28;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="50" y="30" width="900" height="50" as="geometry"/></mxCell><mxCell id="body6" value="Enunciado
+
+Um curso possui várias disciplinas. Cada disciplina pertence a apenas um curso.
+
+Curso:
+• Código
+• Nome
+• Carga horária
+
+Disciplina:
+• Código
+• Nome
+• Semestre
+
+Solicita-se:
+Desenhe o DER utilizando a notação de Peter Chen e identifique os atributos-chave." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="50" y="100" width="920" height="620" as="geometry"/></mxCell><mxCell id="footer6" value="Nome: ____________________________________    Turma: __________    Data: ____/____/______" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="50" y="750" width="900" height="30" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="atividade7" name="Atividade 7"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title7" value="Atividade 7 – Empresa e Projeto" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=28;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="50" y="30" width="900" height="50" as="geometry"/></mxCell><mxCell id="body7" value="Enunciado
+
+Uma empresa possui vários projetos. Cada projeto pertence a uma única empresa.
+
+Empresa:
+• CNPJ
+• Razão social
+
+Projeto:
+• Código
+• Nome
+• Data de início
+
+Solicita-se:
+Desenhe o DER utilizando a notação de Peter Chen, representando o relacionamento e sua cardinalidade." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="50" y="100" width="920" height="620" as="geometry"/></mxCell><mxCell id="footer7" value="Nome: ____________________________________    Turma: __________    Data: ____/____/______" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="50" y="750" width="900" height="30" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="atividade8" name="Atividade 8"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title8" value="Atividade 8 – Aluno e Disciplina" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=28;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="50" y="30" width="900" height="50" as="geometry"/></mxCell><mxCell id="body8" value="Enunciado
+
+Um aluno pode cursar várias disciplinas. Uma disciplina pode possuir vários alunos.
+
+Aluno:
+• Matrícula
+• Nome
+• Curso
+
+Disciplina:
+• Código
+• Nome
+• Carga horária
+
+Solicita-se:
+1. Identifique as entidades.
+2. Identifique os atributos.
+3. Identifique o relacionamento.
+4. Determine a cardinalidade.
+5. Desenhe o DER utilizando a notação de Peter Chen.
+
+Desafio:
+Represente corretamente o relacionamento muitos-para-muitos (N:N)." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="50" y="100" width="920" height="620" as="geometry"/></mxCell><mxCell id="footer8" value="Nome: ____________________________________    Turma: __________    Data: ____/____/______" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="50" y="750" width="900" height="30" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="atividade9" name="Atividade 9"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title9" value="Atividade 9 – Autor e Livro" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=28;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="50" y="30" width="900" height="50" as="geometry"/></mxCell><mxCell id="body9" value="Enunciado
+
+Um autor pode escrever vários livros. Um livro pode ser escrito por vários autores.
+
+Autor:
+• Código
+• Nome
+• Nacionalidade
+
+Livro:
+• ISBN
+• Título
+• Ano
+
+Solicita-se:
+Desenhe o DER utilizando a notação de Peter Chen, identificando os atributos-chave e a cardinalidade N:N." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="50" y="100" width="920" height="620" as="geometry"/></mxCell><mxCell id="footer9" value="Nome: ____________________________________    Turma: __________    Data: ____/____/______" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="50" y="750" width="900" height="30" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
