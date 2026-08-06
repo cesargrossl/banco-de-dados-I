@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Der Matricula" id="0">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="al" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Aluno" vertex="1">
+          <mxGeometry height="50" width="120" x="120" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ma" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Matrículas" vertex="1">
+          <mxGeometry height="50" width="140" x="430" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cu" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cursos" vertex="1">
+          <mxGeometry height="50" width="140" x="430" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="di" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Disciplinas" vertex="1">
+          <mxGeometry height="50" width="140" x="740" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="t" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Tem" vertex="1">
+          <mxGeometry height="60" width="70" x="300" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="p" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Pertence" vertex="1">
+          <mxGeometry height="70" width="90" x="465" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="po" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Possui" vertex="1">
+          <mxGeometry height="70" width="90" x="620" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="n" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Nome" vertex="1">
+          <mxGeometry height="40" width="80" x="10" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="e" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Endereço" vertex="1">
+          <mxGeometry height="40" width="80" x="10" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cpf" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;&lt;b&gt;CPF&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="mc" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;u&gt;Código&lt;/u&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="430" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="md" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Descrição" vertex="1">
+          <mxGeometry height="40" width="80" x="530" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cc" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;u&gt;Código&lt;/u&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="320" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="cd" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Descrição" vertex="1">
+          <mxGeometry height="40" width="80" x="310" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="em" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ementa" vertex="1">
+          <mxGeometry height="40" width="80" x="720" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="dd" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Descrição" vertex="1">
+          <mxGeometry height="40" width="80" x="830" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ed0" edge="1" parent="1" source="al" style="endArrow=none;" target="t">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed1" edge="1" parent="1" source="t" style="endArrow=none;" target="ma">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed2" edge="1" parent="1" source="ma" style="endArrow=none;" target="p">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed3" edge="1" parent="1" source="p" style="endArrow=none;" target="cu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed4" edge="1" parent="1" source="cu" style="endArrow=none;" target="po">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5" edge="1" parent="1" source="po" style="endArrow=none;" target="di">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed6" edge="1" parent="1" source="n" style="endArrow=none;" target="al">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed7" edge="1" parent="1" source="e" style="endArrow=none;" target="al">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed8" edge="1" parent="1" source="cpf" style="endArrow=none;" target="al">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed9" edge="1" parent="1" source="mc" style="endArrow=none;" target="ma">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed10" edge="1" parent="1" source="md" style="endArrow=none;" target="ma">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed11" edge="1" parent="1" source="cc" style="endArrow=none;" target="cu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed12" edge="1" parent="1" source="cd" style="endArrow=none;" target="cu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed13" edge="1" parent="1" source="em" style="endArrow=none;" target="di">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed14" edge="1" parent="1" source="dd" style="endArrow=none;" target="di">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l0" parent="1" style="text;strokeColor=none;fillColor=none;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="260" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" parent="1" style="text;strokeColor=none;fillColor=none;fontStyle=1;" value="N" vertex="1">
+          <mxGeometry height="20" width="20" x="390" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" parent="1" style="text;strokeColor=none;fillColor=none;fontStyle=1;" value="N" vertex="1">
+          <mxGeometry height="20" width="20" x="490" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" parent="1" style="text;strokeColor=none;fillColor=none;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="490" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" parent="1" style="text;strokeColor=none;fillColor=none;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="585" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="l5" parent="1" style="text;strokeColor=none;fillColor=none;fontStyle=1;" value="N" vertex="1">
+          <mxGeometry height="20" width="20" x="720" y="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
