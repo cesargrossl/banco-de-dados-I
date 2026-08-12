@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2026-08-12T23:20:00.000Z" agent="ChatGPT" version="24.7.17">
+  <diagram id="peterChenAlunoMatricula" name="Peter Chen - Aluno e Matrícula">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Título -->
+        <mxCell id="title" value="DER — Notação de Peter Chen | ALUNO e MATRÍCULA" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="20" width="620" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Entidade ALUNO -->
+        <mxCell id="aluno" value="ALUNO" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=18;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Atributos ALUNO -->
+        <mxCell id="id_aluno" value="&lt;u&gt;id_aluno&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="155" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="nome" value="nome" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="145" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="email" value="email" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="35" y="430" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="curso" value="curso" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="235" y="445" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Relacionamento -->
+        <mxCell id="realiza" value="REALIZA" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=16;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="475" y="300" width="150" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Entidade MATRICULA -->
+        <mxCell id="matricula" value="MATRÍCULA" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=18;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="770" y="300" width="190" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Atributos MATRICULA -->
+        <mxCell id="id_matricula" value="&lt;u&gt;id_matricula&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="730" y="145" width="165" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="disciplina" value="disciplina" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="920" y="155" width="155" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="data_matricula" value="data_matricula" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="690" y="445" width="175" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="situacao" value="situação" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="900" y="440" width="150" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Ligações atributos ALUNO -->
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;" edge="1" parent="1" source="aluno" target="id_aluno"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="aluno" target="nome"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="aluno" target="email"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="aluno" target="curso"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Ligações relacionamento e cardinalidades -->
+        <mxCell id="e5" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;fontSize=16;fontStyle=1;" edge="1" parent="1" source="aluno" target="realiza"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;fontSize=16;fontStyle=1;" edge="1" parent="1" source="realiza" target="matricula"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Ligações atributos MATRICULA -->
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;" edge="1" parent="1" source="matricula" target="id_matricula"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="matricula" target="disciplina"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="matricula" target="data_matricula"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="matricula" target="situacao"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Legenda -->
+        <mxCell id="legend" value="&lt;b&gt;Legenda Peter Chen&lt;/b&gt;&lt;br&gt;Retângulo = Entidade&lt;br&gt;Losango = Relacionamento&lt;br&gt;Elipse = Atributo&lt;br&gt;Atributo sublinhado = Chave&lt;br&gt;1:N = Um aluno pode realizar várias matrículas" style="text;html=1;align=left;verticalAlign=top;fontSize=14;spacing=6;strokeColor=#999999;fillColor=#f5f5f5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="560" width="400" height="135" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
