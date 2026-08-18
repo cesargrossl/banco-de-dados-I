@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2026-08-18T18:15:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
+  <diagram id="case1" name="Pessoa-Passaporte">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title1" value="Caso 1 — Pessoa (0,1) : Passaporte (1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="720" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="pessoa" value="PESSOA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="160" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="rel" value="possui" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="435" y="120" width="120" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="passaporte" value="PASSAPORTE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="720" y="120" width="180" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="pessoa" target="rel"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="rel" target="passaporte"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="card1" value="(0,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="315" y="130" width="80" height="30" as="geometry"/></mxCell>
+        <mxCell id="card2" value="(1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="610" y="130" width="80" height="30" as="geometry"/></mxCell>
+
+        <mxCell id="logical1" value="Modelo lógico" style="text;html=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="80" y="260" width="200" height="30" as="geometry"/></mxCell>
+        <mxCell id="tbl_pessoa" value="&lt;b&gt;PESSOA&lt;/b&gt;&lt;hr/&gt;PK id_pessoa&lt;br/&gt;nome" style="shape=swimlane;html=1;rounded=0;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="120" y="310" width="220" height="120" as="geometry"/></mxCell>
+        <mxCell id="tbl_pass" value="&lt;b&gt;PASSAPORTE&lt;/b&gt;&lt;hr/&gt;PK id_passaporte&lt;br/&gt;numero&lt;br/&gt;FK id_pessoa UNIQUE NOT NULL" style="shape=swimlane;html=1;rounded=0;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="650" y="300" width="300" height="140" as="geometry"/></mxCell>
+        <mxCell id="fk1" value="FK aponta para PESSOA.id_pessoa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=13;" edge="1" parent="1" source="tbl_pass" target="tbl_pessoa"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="explain1" value="&lt;b&gt;Explicação&lt;/b&gt;&lt;br/&gt;• Uma pessoa pode existir sem passaporte.&lt;br/&gt;• Um passaporte não deve existir sem uma pessoa.&lt;br/&gt;• Por isso, a FK fica em PASSAPORTE.&lt;br/&gt;• UNIQUE garante que uma pessoa tenha no máximo um passaporte.&lt;br/&gt;• NOT NULL garante que todo passaporte esteja ligado a uma pessoa." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1"><mxGeometry x="140" y="500" width="780" height="170" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram id="case2" name="Professor-Armario">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title2" value="Caso 2 — Professor (1,1) : Armário (1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="220" y="20" width="720" height="40" as="geometry"/></mxCell>
+        <mxCell id="prof" value="PROFESSOR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=16;" vertex="1" parent="1"><mxGeometry x="100" y="120" width="180" height="70" as="geometry"/></mxCell>
+        <mxCell id="rel2" value="utiliza" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" vertex="1" parent="1"><mxGeometry x="440" y="120" width="120" height="70" as="geometry"/></mxCell>
+        <mxCell id="arm" value="ARMÁRIO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=16;" vertex="1" parent="1"><mxGeometry x="730" y="120" width="180" height="70" as="geometry"/></mxCell>
+        <mxCell id="ee1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="prof" target="rel2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ee2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="rel2" target="arm"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c21" value="(1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="320" y="130" width="80" height="30" as="geometry"/></mxCell>
+        <mxCell id="c22" value="(1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="620" y="130" width="80" height="30" as="geometry"/></mxCell>
+
+        <mxCell id="logical2" value="Modelo lógico — opção escolhida" style="text;html=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="80" y="260" width="300" height="30" as="geometry"/></mxCell>
+        <mxCell id="tbl_prof" value="&lt;b&gt;PROFESSOR&lt;/b&gt;&lt;hr/&gt;PK id_professor&lt;br/&gt;nome" style="shape=swimlane;html=1;rounded=0;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="120" y="310" width="230" height="120" as="geometry"/></mxCell>
+        <mxCell id="tbl_arm" value="&lt;b&gt;ARMARIO&lt;/b&gt;&lt;hr/&gt;PK id_armario&lt;br/&gt;numero&lt;br/&gt;FK id_professor UNIQUE NOT NULL" style="shape=swimlane;html=1;rounded=0;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="650" y="300" width="310" height="140" as="geometry"/></mxCell>
+        <mxCell id="fk2" value="FK aponta para PROFESSOR.id_professor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=13;" edge="1" parent="1" source="tbl_arm" target="tbl_prof"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="explain2" value="&lt;b&gt;Explicação&lt;/b&gt;&lt;br/&gt;• Os dois lados são obrigatórios: (1,1) e (1,1).&lt;br/&gt;• Tecnicamente, a FK poderia ficar em qualquer uma das duas tabelas.&lt;br/&gt;• Aqui foi colocada em ARMARIO porque faz sentido perguntar: ‘este armário pertence a qual professor?’.&lt;br/&gt;• UNIQUE impede que dois armários sejam associados ao mesmo professor.&lt;br/&gt;• Em um 1:1 obrigatório dos dois lados, a decisão é principalmente de semântica e regra de negócio." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1"><mxGeometry x="120" y="500" width="840" height="180" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
