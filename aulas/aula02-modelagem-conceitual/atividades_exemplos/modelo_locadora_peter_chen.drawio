@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="locadora" name="Modelo Peter Chen">
+    <mxGraphModel dx="1373" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cliente" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="Cliente" vertex="1">
+          <mxGeometry height="70" width="140" x="160" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="carro" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="Carro" vertex="1">
+          <mxGeometry height="70" width="140" x="800" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="esportivo" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="Esportivo" vertex="1">
+          <mxGeometry height="70" width="150" x="680" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="seda" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="Sedã" vertex="1">
+          <mxGeometry height="70" width="150" x="910" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="aluga" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;" value="Aluga" vertex="1">
+          <mxGeometry height="80" width="140" x="470" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="cliente" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;startArrow=none;" target="aluga" value="(0,n)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="aluga" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;startArrow=none;" target="carro" value="(0,n)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="codcli" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4;" value="CodCli" vertex="1">
+          <mxGeometry height="42" width="95" x="110" y="356.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nome" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Nome" vertex="1">
+          <mxGeometry height="42" width="90" x="230" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="cnh" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="CNH" vertex="1">
+          <mxGeometry height="42" width="90" x="50" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="endereco" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Endereço" vertex="1">
+          <mxGeometry height="42" width="110" x="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="telefone" parent="1" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" value="Telefone (1,n)" vertex="1">
+          <mxGeometry height="48" width="130" x="70" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ec1" edge="1" parent="1" source="cliente" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="codcli">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2" edge="1" parent="1" source="cliente" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="nome">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ec3" edge="1" parent="1" source="cliente" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="cnh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ec4" edge="1" parent="1" source="cliente" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="endereco">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ec5" edge="1" parent="1" source="cliente" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="telefone">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="codalu" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4;" value="CodAlu" vertex="1">
+          <mxGeometry height="42" width="100" x="400" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="dataini" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Data inicial" vertex="1">
+          <mxGeometry height="42" width="115" x="575" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="datafim" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Data final" vertex="1">
+          <mxGeometry height="42" width="115" x="455" y="356.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ea1" edge="1" parent="1" source="aluga" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="codalu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea2" edge="1" parent="1" source="aluga" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="dataini">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea3" edge="1" parent="1" source="aluga" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="datafim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="codcar" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4;" value="CodCar" vertex="1">
+          <mxGeometry height="42" width="100" x="910" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="modelo" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Modelo" vertex="1">
+          <mxGeometry height="42" width="100" x="1010" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="diaria" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Diária" vertex="1">
+          <mxGeometry height="42" width="100" x="1030" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ano" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ano" vertex="1">
+          <mxGeometry height="42" width="100" x="820" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="cor" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Cor" vertex="1">
+          <mxGeometry height="42" width="100" x="940" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="placa" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Placa" vertex="1">
+          <mxGeometry height="42" width="100" x="705" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="car1" edge="1" parent="1" source="carro" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="codcar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="car2" edge="1" parent="1" source="carro" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="modelo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="car3" edge="1" parent="1" source="carro" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="diaria">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="car4" edge="1" parent="1" source="carro" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="ano">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="car5" edge="1" parent="1" source="carro" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="cor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="car6" edge="1" parent="1" source="carro" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="placa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isa" parent="1" style="triangle;whiteSpace=wrap;html=1;direction=north;fontSize=10;" value="ISA" vertex="1">
+          <mxGeometry height="55" width="60" x="840" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="isa1" edge="1" parent="1" source="carro" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="isa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isa2" edge="1" parent="1" source="isa" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="esportivo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isa3" edge="1" parent="1" source="isa" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="seda">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="velocidade" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Velocidade" vertex="1">
+          <mxGeometry height="42" width="120" x="695" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="passageiros" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Passageiros" vertex="1">
+          <mxGeometry height="42" width="120" x="925" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="sub1" edge="1" parent="1" source="esportivo" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="velocidade">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sub2" edge="1" parent="1" source="seda" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;startArrow=none;" target="passageiros">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
