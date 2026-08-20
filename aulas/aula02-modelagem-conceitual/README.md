@@ -1,6 +1,6 @@
-# 🗄️ Modelagem de Banco de Dados
+# 🗄️ Modelagem Conceitual
 
-Este repositório contém materiais, exemplos e atividades relacionados à **Modelagem de Banco de Dados**, abordando desde o **Modelo Conceitual**.
+Está pasta contém conteudos abordando o **Modelo Conceitual**.
 
 ## 🛠️ Ferramentas utilizadas
 
